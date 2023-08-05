@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "This is a plugin for Obsidian mount/unmount veracrypt volume to vault.",
-	"author": "Abraksas",
+	"author": "Pavel Abraksas",
 	"authorUrl": "https://github.com/pabraksas/obsidian-veracrypt/",
 	"fundingUrl": "https://opencollective.com/obsidian-veracrypt",
 	"isDesktopOnly": true

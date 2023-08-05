@@ -1,6 +1,6 @@
-# Obsidian Sample Plugin
+# Obsidian Plugin
 
-This is a sample plugin for Obsidian (https://obsidian.md).
+This is a plugin for Obsidian mount/unmount veracrypt volume to vault.
 
 This project uses Typescript to provide type checking and documentation.
 The repo depends on the latest plugin API (obsidian.d.ts) in Typescript Definition format, which contains TSDoc comments describing what it does.

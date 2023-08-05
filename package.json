@@ -1,15 +1,17 @@
 {
-	"name": "obsidian-sample-plugin",
+	"name": "obsidian-veracrypt",
 	"version": "1.0.0",
-	"description": "This is a sample plugin for Obsidian (https://obsidian.md)",
+	"description": "This is a plugin for Obsidian mount/unmount veracrypt volume to vault.",
 	"main": "main.js",
 	"scripts": {
-		"dev": "node esbuild.config.mjs",
+		"start": "node main.js",
+		"dev": "nodemon main.js",
+		"conf": "node esbuild.config.mjs",
 		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
 		"version": "node version-bump.mjs && git add manifest.json versions.json"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Pavel Abraksas",
 	"license": "MIT",
 	"devDependencies": {
 		"@types/node": "^16.11.6",
